@@ -1,28 +1,22 @@
 /** @type {import('tailwindcss').Config} */
+
+// import tailwindScrollbar from "tailwind-scrollbar";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    container: {
-      padding: {
-        DEFAULT: "4rem", // px-16 = 4rem (1rem = 16px)
-      },
-    },
-
     extend: {
       colors: {
         prLavender: "#7456FF",
-        srLavender: "#8368FF",
-        trLavender: "#A693FF",
-        qtLavender: "#C5B9FF",
-        qnLavender: "#E0DAFF",
         prBlack: "#0C0C0C",
         srBlack: "#0F0F0F",
         trBlack: "#131313",
+        prGrey: "#707070",
+        srGrey: "#999999",
         cvHover: "#5739E1",
-      },
-
-      backgroundImage: {
-        bgGradient: "linear-gradient(to bottom, #0C0C0C, #060021)",
+        bgSocmed: "#161225",
+        slGrey: "#111112",
+        slcontainer: "#1B172A",
       },
 
       fontFamily: {

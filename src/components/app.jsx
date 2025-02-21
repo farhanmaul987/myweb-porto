@@ -8,7 +8,7 @@ import ContactPerson from "./contactPerson/contactPerson.jsx";
 
 function App() {
   return (
-    <div className="bg-bgGradient">
+    <div>
       <Navbar />
       <Hero />
       <AboutMe />

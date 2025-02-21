@@ -1,19 +1,16 @@
-import logoBig from "../../assets/logo-big.png";
-
 function Navbar() {
   return (
     // <!-- Header -->
     <header>
-      <div className="mx-auto w-full fixed top-0">
+      <div className=" container max-w-full w-full fixed top-0 z-[999]">
         {/* <!-- Navbar --> */}
         <nav className="px-16 bg-srBlack text-white flex justify-between items-center h-20">
-          <a href="#" className="flex">
-            <img src={logoBig} alt="logoBig" className="size-11" />
-            <h5 className="heading-5 ml-3">
+          <a href="#">
+            <h5 className="heading-5">
               My <span className="text-prLavender">Portofolio</span>
             </h5>
           </a>
-          <ul className="flex space-x-6 heading-6">
+          <ul className="flex space-x-6 font-semibold text-[17px]">
             <li>
               <a href="#hero" className="hover:text-prLavender">
                 Home
